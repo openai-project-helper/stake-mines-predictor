@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stake Mines Predictor</title>
+  <link rel="manifest" href="manifest.json">
+  <script src="script.js" defer></script>
+  <style>
+    body { font-family: Arial, sans-serif; background: #111; color: #fff; text-align: center; padding: 2rem; }
+    h1 { color: #00ff88; }
+    .grid { display: grid; grid-template-columns: repeat(5, 60px); gap: 10px; justify-content: center; margin-top: 2rem; }
+    .cell { width: 60px; height: 60px; background: #222; border: 2px solid #00ff88; cursor: pointer; line-height: 60px; font-weight: bold; }
+    .safe { background: #00ff88; color: #000; }
+    .mine { background: #ff0033; color: #fff; }
+    .controls { margin-top: 2rem; }
+    button { padding: 0.5rem 1rem; margin: 0.5rem; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Stake Mines Predictor (3 Mines)</h1>
+  <div class="controls">
+    <button onclick="predict()">Predict Safe Spots</button>
+    <button onclick="resetGrid()">Reset</button>
+  </div>
+  <div class="grid" id="grid"></div>
+</body>
+</html>
