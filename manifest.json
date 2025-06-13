@@ -1,0 +1,15 @@
+{
+  "name": "Stake Mines Predictor",
+  "short_name": "Mines Predictor",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#111111",
+  "description": "Predict safe tiles on Stake Mines (3 mines).",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
