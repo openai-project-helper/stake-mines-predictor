@@ -30,6 +30,7 @@ function predict() {
 }
 
 function resetGrid() {
+  safeSpots = [];
   generateGrid();
 }
 
